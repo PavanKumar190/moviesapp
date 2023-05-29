@@ -1,0 +1,83 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.bg-container {
+  background-color: #ffffff;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-heading {
+  font-family: "Roboto";
+  font-size: 40px;
+  color: #0f172a;
+}
+.information-container {
+  background-color: #0b69ff;
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+  margin-bottom: 5px;
+  width: 60%;
+  align-self: center;
+}
+.success-container {
+  background-color: #2dca73;
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+  margin-bottom: 5px;
+  width: 60%;
+}
+.warning-container {
+  background-color: #ffb800;
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+  margin-bottom: 5px;
+  width: 60%;
+}
+.error-container {
+  background-color: #ff0b37;
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+  margin-bottom: 5px;
+  width: 60%;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+.message {
+  font-family: "Roboto";
+  color: #ffffff;
+  font-size: 19px;
+  margin: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .main-heading {
+    font-size: 60px;
+  }
+  .information-container {
+    max-width: 70%;
+  }
+  .success-container {
+    max-width: 70%;
+  }
+  .warning-container {
+    max-width: 70%;
+  }
+  .error-container {
+    max-width: 70%;
+  }
+}
